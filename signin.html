@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<title>Laforant</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="HTML Web Laforant">
+	<meta name="author" content="Janson Tan">
+	<meta name="keywords" content="first-person-shooter, games, action, guns, rpg">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="shortcut icon" href="assets/img/favicons/Logo2.ico">
+	<link href="https://fonts.googleapis.com/css?family=Anton%7CHind:400,700%7CMontserrat:400,700" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/vendor/animate/animate.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/font-icon/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="assets/font-icon/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/booked.css" rel="stylesheet">
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="website-body">
+
+		<div id="web-preloader-js" class="preloader-overlay">
+			<div id="preloader-js" class="preloader"></div>
+		</div>
+		<div class="site-overlay"></div>
+
+		<header id="header" class="header">
+			<div class="header-logo header-logo-img">
+				<a href="index.html"><img src="assets/img/Logo-name.jpg" srcset="assets/img/Logo-name2.jpg" alt="Laforant"></a>
+			</div>
+			<nav class="main-nav">
+				<ul class="main-nav-list">
+					<li class="active"><a href="index.html">home</a></li>
+					<li class=""><a href="#">info</a>
+						<ul class="main-nav-sub">
+							<li class=""><a href="arsenal.html">Arsenal</a></li>
+							<li class=""><a href="maps.html">Maps</a></li>
+							<li class=""><a href="agents.html">Agents</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="#">support</a>
+						<ul class="main-nav-sub">
+							<li class=""><a href="specs.html">Specs</a></li>
+							<li class=""><a href="faqs.html">FAQs</a></li>
+						</ul>
+					</li>
+				</ul>		
+			</nav>
+			<div class="header-space"></div>
+			<nav class="header-nav header-nav-right">
+				<a href="preregister.html" class="btn btn-outline-secondary nav-btn">
+					<span class="nav-btn__label">PRE REGISTER</span>
+					<i class="nav-btn-icon icon-arrow-right"></i>
+				</a>
+				<ul class="nav-right">
+					<li class="nav-right-signin">
+						<a href="signin.html">
+							<i class="icon-user"></i>
+							<span class="link-label">sign in</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<a id="header-mobile-menu" class="burger-menu-icon">
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+			</a>
+		</header>
+
+		<div class="page-heading jarallax" data-jarallax data-speed="0.2">
+			<div class="page-heading-address">
+				<div class="container">
+					<h1 class="page-heading-title">Sign-In</h1>
+					<ol class="breadcrumb page-heading-breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Sign-In</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<main class="site-content">
+		
+		<div class="section-content">
+			<div class="container">
+		
+				<div class="row">
+					<div class="col-md-8 ml-md-auto mr-md-auto">
+		
+						<div id="booked-sign-page">
+							<div id="booked-page-form">
+						
+								<ul class="booked-tabs nav login bookedClearFix" id="booked-tabs" role="tablist">
+									<li><a href="#profile-login" id="profile-login-tab" data-toggle="tab" role="tab" aria-selected="true" class="active"><i class="booked-icon ion-locked"></i>Sign In</a></li>
+									<li><a href="#profile-forgot" id="profile-forgot-tab" data-toggle="tab" role="tab" aria-selected="false"><i class="booked-icon ion-help-buoy"></i>Forgot Password</a></li>
+								</ul>
+						
+								<div class="tab-content">
+						
+									<div id="profile-login" class="booked-tab-content tab-pane fade show active" role="tabpanel" aria-labelledby="profile-login-tab">
+										<div class="booked-form-wrap bookedClearFix">
+											<form name="loginform" id="loginform" action="#" method="get">
+												<div class="form-group login-username">
+													<input type="text" name="log" id="user_login" class="form-control" value="" size="20" placeholder="Email or Username">
+												</div>
+												<div class="form-group login-password">
+													<input type="password" name="pwd" id="user_pass" class="form-control" value="" size="20" placeholder="Password">
+												</div>
+												<div class="login-remember">
+													<div class="custom-control custom-checkbox">
+														<input type="checkbox" class="custom-control-input" id="rememberme">
+														<label class="custom-control-label" for="rememberme">Remember Me</label>
+													</div>
+												</div>
+												<div class="login-submit">
+													<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-lg btn-primary" value="Log In">
+												</div>
+											</form>
+										</div>
+									</div>
+							
+									<div id="profile-forgot" class="booked-tab-content fade tab-pane" role="tabpanel" aria-labelledby="profile-forgot-tab">
+										<div class="booked-form-wrap bookedClearFix">
+											<form method="get" action="#" class="wp-user-form">
+												<div class="form-group">
+													<input type="text" name="user_login_forgot" class="form-control" value="" size="20" id="user_login_forgot" tabindex="1001" placeholder="What is your email address?">
+												</div>
+												<input type="submit" name="user-submit" value="Reset my password" class="user-submit btn btn-lg btn-primary" tabindex="1002">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		</main>
+
+		<footer id="footer" class="footer">
+			<div>
+				<div class="widget-space">
+					<br>
+				</div>
+				<div class="footer-social-button">
+					<ul class="social-media social-media-circle">
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.tripadvisor.com/"><i class="fab fa-tripadvisor"></i></a>
+						</li>
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.yelp.com/"><i class="fab fa-yelp"></i></a>
+						</li>
+						<li class="social-media-item">
+							<a class="social-media-link" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="footer-logo footer-logo-img">
+						<a href="index.html"><img src="assets/img/Logo-footer.jpg" alt="Laforant Logo"></a>
+					</div>
+					<div class="copyright-content">
+						<p>
+							© 2021 Laf Games, Inc. Laf Games, LAFORANT,<br>
+							and any associated logos are trademarks, service marks,<br>
+							and/or registered trademarks of Laf Games, Inc.
+						</p>
+					</div>
+					<div class="footer-copyright__txt">
+						Copyright &copy; 2021 Laforant &nbsp;|&nbsp; All Rights Reserved
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script defer src="assets/font-icon/font-awesome/js/all.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
+	<script src="assets/js/core.js"></script>
+	<script src="assets/js/init.js"></script>
+
+</body>
+</html>
